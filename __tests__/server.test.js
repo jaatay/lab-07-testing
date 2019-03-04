@@ -33,8 +33,10 @@ describe('The Server', () => {
     return mockClient.get('/z')
     .then(results => {
       expect(results.status).toBe(404);
-    })
-    .catch(console.error);
+    });
+
   });
-  
+ 
 });
+
+
