@@ -1,11 +1,12 @@
 # lab-07-testing
 
-# lab-07-api-server
-
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
 ### Author: Jesse Atay
+
+[![Build Status](https://travis-ci.org/jaatay/lab-07-testing.svg?branch=master)](https://travis-ci.org/jaatay/lab-07-testing)
+-currently tests pass, but the mock server is not closed, so the travis CI check does not complete. Fix TBD.
 
 ### Links and Resources
 * [repo](https://github.com/jaatay/lab-07-testing)
