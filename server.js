@@ -30,3 +30,5 @@ app.use( (err,req,res,next) => {
 // and let something else require and start us up with whatever port it wants
 const port = process.env.PORT || 8080;
 app.listen(port, () => console.log(`Listening on ${port}`));
+
+module.exports = app;
